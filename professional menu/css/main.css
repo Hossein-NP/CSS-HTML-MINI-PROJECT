@@ -37,6 +37,12 @@ body {
   align-items: center;
 }
 
+.justify-between{
+  justify-content: space-between;
+}
+ .gap-half{
+  gap: 0.5rem;
+ }
 /* navigation
 ============================ */
 .nav-container {
@@ -52,6 +58,43 @@ body {
   box-shadow: 0 0.1rem 8px 0 rgba(0, 0 , 0 ,0.1);
   padding: 1rem 2rem;
 }
+
+/* left section >> brand logo and name  */
+
 .nav-section .left-nav {
   gap: 0.5rem;
+}
+.brand-logo {
+  width: 50px;
+}
+.nav-section .left-nav h3{
+  color: #000e55;
+}
+
+/* center section >> menu items */
+
+.nav-section .center-nav .menu{
+  width: 35rem;
+}
+.nav-section .center-nav .menu li a{
+  color: #000e55;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* right section >> group icons and user profile */
+
+.right-nav {
+  width: 20rem;
+}
+
+.right-nav .user-profile_section .user-profile{
+  width: 50px;
+}
+.right-nav .user-profile_section .user-profile img{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
