@@ -49,6 +49,18 @@ body {
  .fs-15{
   font-size: 15px;
  }
+ .fs-25 {
+  font-size: 22px;
+ }
+ .primery-1 {
+  color: #2e4dff;
+ }
+ .primery-2 {
+  color: #030e50;
+ }
+ .fw-7{
+  font-weight: 700;
+ }
 /* navigation
 ============================ */
 .navigation {
@@ -67,8 +79,8 @@ body {
   -ms-transition: 1s;
   -o-transition: 1s;
   /* grid */
-  display: grid;
-  grid-template-columns: 60% 40%;
+  display: flex;
+  justify-content: space-between;
 }
 .navigation:hover {
   /* width: 100%; */
@@ -83,21 +95,17 @@ body {
 /* navigation left section */
 .nav-left {
   background-color: goldenrod;
-  display: flex;
-  align-items: center;
   gap: 3rem;
 }
 /* nav logo location */
 .nav-logo {
-  display: flex;
   align-items: center;
 }
 .nav-logo-wrapper {
-  max-width: 60px;
+  width: 60px;
 }
 /* menu */
 .menu {
-  display: flex;
   gap: 3rem;
 }
 /* navigation right section */
