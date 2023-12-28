@@ -5,52 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Navigation</title>
   <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/index-sm.css" media="(max-width:576px)">
+  <link rel="stylesheet" href="../css/index-md.css" media="(min-width:577px) and (max-width:768px)">
+  <link rel="stylesheet" href="../css/index-lg.css" media="(min-width:769px) and (max-width:992px)">
+  <link rel="stylesheet" href="../css/index-xl.css" media="(min-width:992px) and (max-width:1200px)">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 </head>
 <body>
   <!-- navigation -->
-  <div class="nav-container">
-    <div class="nav-section  items-center justify-between">
-      <!-- left section >> brand logo and name -->
-      <div class="left-nav d-flex items-center">
-        <div class="brand-logo">
-          <img src="../images/logo.PNG" alt="logo">
-        </div>
-        <h3 class="txt-capital">net fix</h3>
-      </div>
-      <!-- center section >> menu items -->
-      <div class="center-nav">
-        <ul class="menu d-flex justify-between">
-          <li><a href="" class="txt-capital active">dashboard</a></li>
-          <li><a href="" class="txt-capital">profile</a></li>
-          <li><a href="" class="txt-capital">message</a></li>
-          <li><a href="" class="txt-capital">about us</a></li>
-          <li><a href="" class="txt-capital">login</a></li>
-        </ul>
-      </div>
-      <!-- right section >> group icons and user profile -->
-      <div class="right-nav d-flex items-center justify-between">
-        <div class="group-icon d-flex ">
-          <a href="#"> 
-            <i class="bi bi-search"></i>          
-          </a>
-          <a href="#">
-            <i class="bi bi-gear"></i>
-          </a>
-          <a href="#">   
-            <i class="bi bi-bell"></i>      
-          </a>
-        </div>
-        <div class="user-profile_section d-flex items-center">
-          <div class="user-status_connection">
-            <span>online</span>
+  <header>
+    <div class="container">
+      <div class="navigation">
+        <!-- navigation left section -->
+        <div class="nav-left h-100">
+          <!-- nav logo location -->
+          <div class="nav-logo gap-half">
+            <div class="nav-logo-wrapper"><img src="../images/logo.PNG" alt="navbar logo"></div>
+            <h3 class="primery-1">wide copo</h3>
           </div>
-          <div class="user-profile">
-            <img src="../images/team4.png" alt="">
-          </div>
+           <!-- menu -->
+           <ul class="menu">
+            <li><a href="#" class="txt-capital fs-15 primery">dashboard</a></li>
+            <li><a href="#" class="txt-capital fs-15 primery">profile</a></li>
+            <li><a href="#" class="txt-capital fs-15 primery">message</a></li>
+            <li><a href="#" class="txt-capital fs-15 primery">about us</a></li>
+            <li><a href="#" class="txt-capital fs-15 primery">login</a></li>
+          </ul>
         </div>
+        <!-- navigation right section -->
+        <div class="nav-right h-100"></div>
       </div>
     </div>
-  </div>
+  </header>
 </body>
 </html>
