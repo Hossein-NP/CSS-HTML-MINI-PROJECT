@@ -1,3 +1,7 @@
 .container {
   max-width: 960px;
 }
+/* nav center section  */
+.nav-center-wrapper .menu {
+  gap: 1rem;
+}
