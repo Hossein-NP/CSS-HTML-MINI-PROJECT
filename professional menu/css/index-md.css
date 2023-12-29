@@ -3,7 +3,7 @@
 }
 .navigation {
   display: grid;
-  grid-template-columns: 30% 35% 30% !important;
+  grid-template-columns: 30% 35% 10% !important;
 }
 /* nav center section */
 .nav-center-wrapper {
@@ -37,4 +37,17 @@
   -ms-transform: translate(0);
   -o-transform: translate(0);
 }
+
 /* navigation left section */
+label{
+  width: 20px;
+  display: block;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+label .line {
+  display: block;
+  width: 100%;
+  border-bottom: 3px solid black;
+  margin-bottom: 0.3rem;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,8 +56,13 @@
           </div>
         </div>
         <!-- hamburge menu for mobile -->
-        <div class="hamburge-menu_wrapper">
-          <input type="checkbox" id="toggle-nav">
+        <div class="hamburge-menu_wrapper d-flex justify-end items-center">
+          <input type="checkbox" id="toggle-nav" style="display: none;">
+          <label for="toggle-nav">
+            <span class="line line-top"></span>
+            <span class="line line-middle"></span>
+            <span class="line line-bottom"></span>
+          </label>
           <ul class="mobile-menu">
             <li class="position-relative"><span href="#" class="txt-capital primery-2 fs-15 active">dashboard</span></li>
             <li class="position-relative"><a href="#" class="txt-capital primery-2">profile</a></li>
