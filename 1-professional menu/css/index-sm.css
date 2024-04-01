@@ -1,7 +1,0 @@
-.container {
-  max-width: 100%;
-}
-.navigation {
-  display: grid;
-  grid-template-columns: 30% 60% 10% !important;
-}
