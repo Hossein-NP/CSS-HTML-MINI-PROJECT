@@ -1,5 +1,8 @@
 @media all and (min-width:576px){
- 
+  .header-bottom-left__para{
+    width: 50rem;
+    text-align: left;
+  }
 }
 @media all and (min-width:768px){
  
