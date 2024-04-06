@@ -24,6 +24,7 @@
     margin-top: 15rem;
   }
   .header-bottom{
+    display: flex;
     flex-wrap: nowrap;
   }
   .header-bottom-right__img--translate {

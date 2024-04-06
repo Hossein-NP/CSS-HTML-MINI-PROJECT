@@ -70,7 +70,7 @@ margin-left: 4rem;
   -ms-transition: all 200ms ease-in-out;
   -o-transition: all 200ms ease-in-out;
 }
-.nav-menu__link:hover {
+.nav-menu__item:not(:last-child) .nav-menu__link:hover {
   color: var(--violet);
 }
 .nav-menu__link--active{
@@ -92,13 +92,16 @@ margin-left: 4rem;
   background-color: var(--violet-dark);
 }
 .header-bottom{
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   grid-template-columns: repeat(2,1fr);
   gap: 2rem;
   place-content: center;
   position: relative;
 }
 .header-bottom-left{
+  display: flex;
+  flex-wrap: wrap;
 }
 .header-bottom-left__title{
   text-align: center;
