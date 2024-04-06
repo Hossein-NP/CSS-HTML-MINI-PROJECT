@@ -37,6 +37,7 @@ a{
 .header-top{
   padding-top: 3rem ;
   padding-bottom: 3rem ;
+  margin-top: 2rem;
 }
 .nav{
   display: flex;
