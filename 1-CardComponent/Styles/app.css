@@ -11,11 +11,65 @@ html {
   box-sizing: inherit;
 }
 body {
+  height: 100vh;
   font-family: "YekanBakh Bold";
   font-size: 1.6rem;
   line-height: 1.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*
 App Style
 */
+
+.card {
+  width: 59.2rem;
+  height: 42.4rem;
+  border-radius: 1.2rem;
+  background-image: url(../Images/card.png);
+  position: relative;
+}
+.card__icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  position: absolute;
+  left: 3rem;
+}
+.card__message-wrapper {
+  width: 8rem;
+  height: 4rem;
+  background: #1D2939;
+  color: #fff;
+  padding: 1.5rem 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+  font-size: 1.8rem;
+}
+.card__message-count {
+  font-family:"YekanBakh Medium";
+}
+.card__heart-icon {
+  width: 4rem;
+  height: 4rem;
+  background-color: #C9184A;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
