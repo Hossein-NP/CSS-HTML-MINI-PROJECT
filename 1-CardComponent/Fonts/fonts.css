@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "YekanBakh Bold" ;
+  src: url("YekanBakh-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "YekanBakh Heavy" ;
+  src: url("YekanBakh-Heavy.woff") format("woff");
+}
+@font-face {
+  font-family: "YekanBakh Medium" ;
+  src: url("YekanBakh-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "YekanBakh Regular" ;
+  src: url("YekanBakh-Regular.woff") format("woff");
+}
